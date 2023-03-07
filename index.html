@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <title>BMI</title>
+    <link rel="icon" href="image.icon.ico">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <label><em>HEIGHT</em></label>
+        <div class="input">
+        <input type="number"  id="height" name="number">
+        </div>
+        </div>
+        <div class="box2">
+        <label><em>WEIGHT</em>
+          <div class="input">
+        <input type="number" id="weight" name="number">
+        </div>
+        </div>
+        <div>
+          <button  type="button" onclick="bmi()">
+            SUBMIT
+          </button>
+          <button  onclick="refresh()">
+            REFRESH
+          </BUTTON>
+      </div>
+
+      <marquee><p id="result"> </p></marquee>
+        <p id="final"> </p>
+
+      <script src="index.js"></script>
+      </div>
+  </body>
+</html>

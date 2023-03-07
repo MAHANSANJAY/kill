@@ -1,0 +1,46 @@
+body
+{
+  background-image: url(https://www.cdc.gov/healthyweight/images/assessing/bmi-adult-fb-600x315.jpg?_=07167);
+  background-size: cover;
+
+  background-repeat: none;
+  font-size: 3rem;
+text-align: center;
+  color: red;
+  padding:10%;
+}
+div
+{
+
+
+margin: auto;
+
+
+
+}
+
+button
+{
+  border-radius: 100%;
+  background-color: white;
+  height: 50px;
+  width: 100px;
+  position: relative;
+  left: 10%;
+  margin-left: 5%;
+
+}
+button:hover{
+  background-color: blue;
+}
+p
+{
+  line-height:  2px;
+  font-size: 20px;
+  color: green;
+}
+input
+{
+  box-sizing: 100px;
+  background-color: white;
+}
